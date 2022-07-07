@@ -21,7 +21,7 @@ const animateMobile = () => {
 		scrollTrigger: {
 			trigger: 'main',
 			start: 'top 0%',
-			end: 'bottom 0%',
+			end: '+=5000px',
 			markers: false,
 			scrub: 1,
 			pin: true,
@@ -158,7 +158,7 @@ const animate = () => {
 		scrollTrigger: {
 			trigger: 'main',
 			start: 'top 0%',
-			end: 'bottom 0%',
+			end: '+=5000px',
 			markers: true,
 			scrub: 1,
 			pin: true,
