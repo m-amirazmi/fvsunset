@@ -109,7 +109,7 @@ section {
 	opacity: 0;
 }
 
-#introduce .introducing p {
+#introduce .introducing .text {
 	font-size: 14vw;
 	font-style: italic;
 	line-height: 11vw;
@@ -161,6 +161,7 @@ section {
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
+	color: #fff;
 }
 
 #introduce .introvideo-text a {
