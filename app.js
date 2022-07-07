@@ -22,7 +22,6 @@ const animateMobile = () => {
 			trigger: 'main',
 			start: 'top 0%',
 			end: 'bottom 0%',
-			markers: true,
 			scrub: 1,
 			pin: true,
 		},
