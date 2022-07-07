@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	font-family: 'Cormorant Garamond', serif;
+	overflow-x: hidden;
+}
+
+main {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+section {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	width: 100vw;
+}
+
+#intro .intro-container {
+	position: absolute;
+	width: 70vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -50%);
+}
+
+#intro h1 {
+	font-size: 10vw;
+	margin-bottom: 3rem;
+	font-weight: 500;
+	font-style: italic;
+	opacity: 0;
+}
+
+#intro p {
+	font-size: 7vw;
+	line-height: 58px;
+	margin-bottom: 3rem;
+	font-style: italic;
+	opacity: 0;
+}
+
+#sun .sun-img {
+	width: 90vw;
+	height: 90vw;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#sun .sun-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+
+#bg {
+	position: absolute;
+	height: 100vh;
+	transform: translateY(100vh);
+}
+
+#bg .bg-img {
+	position: absolute;
+	width: 300vw;
+	height: 370vw;
+	left: 0px;
+	transform: translateX(-100vw);
+}
+
+#bg .bg-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+#inspired p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+	text-align: center;
+	width: 90vw;
+	transform: translate(-50%, 100%);
+	font-size: 7vw;
+	line-height: 12vw;
+	color: #fff;
+	font-weight: 400;
+	opacity: 0;
+	font-family: 'Cormorant Garamond';
+}
+
+#introduce .introducing {
+	width: 80vw;
+	margin: 0 auto;
+	top: 50vh;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+#introduce .introducing p {
+	font-size: 14vw;
+	font-style: italic;
+	line-height: 11vw;
+	font-weight: 500;
+	color: #fff;
+	font-family: 'Cormorant Garamond';
+	margin-top: -2rem;
+}
+
+#introduce .introvideo {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+#introduce .introvideo-img {
+	height: 60vw;
+}
+
+#introduce .introvideo-img img {
+	border-radius: 24vw;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#introduce .introvideo-text {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+#introduce .introvideo-text-logo {
+	width: 30vw;
+}
+
+#introduce .introvideo-text-logo img {
+	width: 100%;
+	height: 100%;
+}
+
+#introduce .introvideo-text {
+	width: 70vw;
+}
+#introduce .introvideo-text p {
+	font-size: 4.2vw;
+	line-height: 6.5vw;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+}
+
+#introduce .introvideo-text a {
+	color: #fff;
+	font-size: 4.2vw;
+	font-family: 'Montserrat';
+	font-weight: 400;
+}

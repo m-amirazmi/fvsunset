@@ -1,0 +1,6 @@
+@media screen and (min-device-width: 1201px) and (min-width: 1201px) {
+	#sun .sun-img {
+		width: 600px;
+		height: 600px;
+	}
+}
