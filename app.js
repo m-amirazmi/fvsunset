@@ -136,7 +136,7 @@ const animateMobile = () => {
 			{
 				autoAlpha: 1,
 				y: 0,
-				duration: 20,
+				duration: 50,
 				delay: 10,
 			},
 			'>+2'
@@ -145,7 +145,7 @@ const animateMobile = () => {
 		introTl.to(intro, {
 			autoAlpha: 0,
 			y: '-10vh',
-			duration: 20,
+			duration: 50,
 			delay: 30,
 		});
 
