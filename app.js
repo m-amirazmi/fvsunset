@@ -22,6 +22,7 @@ const animateMobile = () => {
 			trigger: 'main',
 			start: 'top 0%',
 			end: 'bottom 0%',
+			markers: true,
 			scrub: 1,
 			pin: true,
 		},
@@ -130,11 +131,11 @@ const animateMobile = () => {
 			intro,
 			{
 				autoAlpha: 0,
-				y: '30vh',
+				// y: '100px',
 			},
 			{
 				autoAlpha: 1,
-				y: 0,
+				// y: 0,
 				duration: 50,
 				delay: 10,
 			},
@@ -143,7 +144,7 @@ const animateMobile = () => {
 
 		introTl.to(intro, {
 			autoAlpha: 0,
-			y: '-10vh',
+			y: i == 1 ? '-50vh' : '-10vh',
 			duration: 50,
 			delay: 30,
 		});
